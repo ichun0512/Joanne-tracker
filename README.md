@@ -2,6 +2,11 @@
 
 一個現代化的習慣追蹤 Web 應用程式，幫助你建立並維持良好的習慣。
 
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=flat-square&logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 ## 功能特色
 
 ### 📝 習慣管理
@@ -39,7 +44,26 @@
 
 ## 開始使用
 
-應用程式已經配置完成並準備好使用。開發伺服器會自動啟動。
+### 安裝依賴
+
+```bash
+npm install
+```
+
+### 運行開發伺服器
+
+```bash
+npm run dev
+```
+
+開啟瀏覽器訪問 [http://localhost:3000](http://localhost:3000) 查看應用程式。
+
+### 建置生產版本
+
+```bash
+npm run build
+npm start
+```
 
 ### 主要功能導覽
 
