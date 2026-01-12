@@ -7,7 +7,7 @@ import { Habit } from '@/types';
 import { HabitCard } from './HabitCard';
 import { Modal } from './Modal';
 import { HabitForm } from './HabitForm';
-import { formatDate, getCheckInByDate } from '@/lib/utils';
+import { formatDate } from '@/lib/utils';
 import { getCheckInByDate as getCheckInByDateFromStorage } from '@/lib/storage';
 
 interface DashboardProps {
